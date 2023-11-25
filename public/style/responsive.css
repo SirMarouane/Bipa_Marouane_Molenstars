@@ -2,30 +2,37 @@
 
 /* MOBILE M */
 
-@media (min-width: 375px) and (max-width: 574px){
+@media (min-width: 374px) and (max-width: 574px){
     header{
         flex-direction: column;
         justify-content: center;
 
     }
 
-    .logo> img{
-        width: 50px;
-    
+    .section2{
+        flex-direction: column;
+        
+
+    }
+
+    .big_box{
+        margin: 0;
+        padding: 0;
+
+        
+        flex-direction: column;
+        align-items: center;
     }
 
     .logo{
         display: flex;
-        justify-content: center;
+        width: 2%;
     }
 
     .nav_bar{
         flex-direction: column;
-        align-items: center;
-        margin: 0;
-              
+        margin-left: 300px;
     }
-
     .nav_bar > div{
         border-radius: 20px;
         width: 100px;
@@ -33,17 +40,61 @@
 
         margin-top: 10px;
 
-    }
-
-    h1{
         display: flex;
         justify-content: center;
-        
+
     }
 
-    .div6{
-        border: solid 4px rgb(0, 255, 132);
+    .title_cyber >h2{
+        
+        font-size: 1em;
+        width: max-content;
+
+        justify-content: center;
+      
     }
+
+    .cyber_parent{
+        
+    margin-left: 30px;
+    }
+
+.banner_right{
+   margin-left: 110px;
+
+}
+
+.partners_logo {
+    flex-direction: column;
+    align-items: center;
+ 
+}
+
+.sliders{
+    margin-bottom: 10px;
+    width: 2000px;
+
+}
+
+.who_section3{
+    justify-content: center;
+    align-items: center;
+
+}
+
+.risk{
+   flex-direction: column;
+   align-items: center;
+
+}
+
+.text_partners{
+    width: 1000px;
+
+}
+
+
+   
 }
 
 
