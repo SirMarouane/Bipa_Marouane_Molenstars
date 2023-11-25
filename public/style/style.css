@@ -1,0 +1,214 @@
+@font-face {
+    font-family: "OswalMedium";
+    src: url(./../src/fonts/OswaldMedium.ttf);
+}
+@font-face {
+    font-family: "OswalRegular";
+    src: url(./../src/fonts/OswaldRegular.ttf);
+}
+@font-face {
+    font-family: "RobotoBold";
+    src: url(./../src/fonts/RobotoBold.ttf);
+}
+@font-face {
+    font-family: "RobotoMedium";
+    src: url(./../src/fonts/RobotoMedium.ttf);
+}
+@font-face {
+    font-family: "RobotoRegular";
+    src: url(./../src/fonts/RobotoRegular.ttf);
+}
+
+
+.body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+
+/* -----------------Section 6-------------------*/
+
+/* Section 6 Left */
+
+.section6 {
+    background-image: url(./../src/image/dots-left.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-color: rgb( 11, 24, 79);
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: right;
+}
+
+.section6divLeft {
+
+    width: 40%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.sectionsous-titre {
+    color: rgb( 39, 211, 237);
+    font-size: 20px;
+    font-family: OswalRegular;
+    padding-top: 70px;
+    margin: 0;
+    
+}
+
+.sectiontitre {
+    color: white;
+    font-size: 40px;
+    font-family: RobotoMedium;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sectiontexte {
+    color: rgb( 90, 107, 170);
+    font-size: 18px;
+    font-family: RobotoRegular;
+}
+
+
+.skills {
+    width: 65%;
+    display: flex ;
+    /* flex-wrap: wrap; MEttre dans responsive*/
+    justify-content: space-between;
+    padding: 20px;
+    font-family: RobotoMedium;
+}
+  
+.skill>:nth-child(1) {
+    justify-content: center;
+    text-align: center;
+    color: white;
+    width: 100px;
+    height: 100px;
+    font-size: 35px;
+    border-radius: 50%;
+    border: 4px #2CA9D4ff solid;
+}
+.circle{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skill>p{
+    color: white;
+    font-size: large;
+    
+}
+.textcybercenter{
+    color: #2CA9D4ff;
+    padding-right: 55px;
+}
+
+/* Section 6 Right */
+
+.section6divRight {
+    background-image: url(./../src/image/service-right-bg-img.png);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+}
+
+.section6divRightBottom {
+    background-color: aqua;
+    width: 20%;
+}
+
+
+/* -----------------Section 7-------------------*/
+
+
+.section7 {
+    width: 100%;
+    height: 400px;
+    background-image: url(./../src/image/overly-img.png);
+    background-color: rgb(19, 34, 96);
+    background-position: center;  
+    padding-top: 15%;
+    display: flex;
+}
+
+.carreLogo {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+.logoChiffre {
+    color: white;
+    font-size: 30px;
+    font-family: RobotoMedium;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.section7Left {
+    width: 50%;
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.contenuCarreLogo {
+    background-color: rgb(24, 39, 108);
+    width: 175px;
+    height: 175px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    gap: 5px;
+}
+
+.contenuCarreLogo img {
+    width: 20%;
+    justify-content: center;
+}
+
+.sectiontexte {
+    width: 60%;
+    margin: 0;
+}
+
+
+.section7Right {
+    width: 50%;
+    margin-left: 50px;
+}
+
+.sectionsous-titre1 {
+    color: rgb( 39, 211, 237);
+    font-size: 20px;
+    font-family: OswalRegular;
+    margin: 0;
+}
+
+.btnSection7 {
+    width: 125px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb( 39, 211, 237);
+    color: white;
+}
+
+/* -----------------Section 8-------------------*/
