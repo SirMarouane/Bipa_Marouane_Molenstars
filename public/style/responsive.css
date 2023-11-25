@@ -1,0 +1,98 @@
+/* ********************************************** RESPONSIVE ************************************************* */
+
+/* MOBILE M */
+
+@media (min-width: 375px) and (max-width: 574px){
+    header{
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .logo> img{
+        width: 50px;
+    
+    }
+
+    .logo{
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav_bar{
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+              
+    }
+
+    .nav_bar > div{
+        border-radius: 20px;
+        width: 100px;
+        background-color: #2152a1;
+
+        margin-top: 10px;
+
+    }
+
+    h1{
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .div6{
+        border: solid 4px rgb(0, 255, 132);
+    }
+}
+
+
+/* TABLETTE */
+
+@media (min-width: 575px) and (max-width: 768px){
+    header{
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .logo> img{
+        width: 50px;
+    
+    }
+
+    .logo{
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav_bar{
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+              
+    }
+
+    .nav_bar > div{
+        border-radius: 20px;
+        width: 600px;
+        background-color: #2152a1;
+
+        margin-top: 10px;
+
+    }
+
+    h1{
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .div6{
+        border: solid 4px rgb(0, 255, 132);
+    }
+
+    .contact{
+        width: auto;
+    }
+}  

@@ -23,7 +23,7 @@ body{
     width: 100vw;
     margin: 0;
 
-    background-color: #091527;
+    background-color: rgb(11, 24, 79);
     
 
 }
@@ -64,7 +64,7 @@ header{
 }
 
 h1{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: OswalRegular;
     color: white;
     font-size: 70%;
     font-weight: 400;
@@ -202,7 +202,7 @@ h4{
 }
 
 h3{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: OswalRegular;
     font-size: 0.7em;
     letter-spacing: 2px;
     color: #3290be;
@@ -221,7 +221,7 @@ h3{
 
 h5{
     color: white;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:OswalRegular;
     font-size: 1.5em;
 
     margin: 0;
@@ -255,7 +255,7 @@ h5{
 
 }
 
-.partners_logo > div > img:hover{
+.sliders:hover img{
     background-color: #0ad3ef;
     cursor: pointer;
     transition: 1s ;
@@ -263,9 +263,10 @@ h5{
 
 }
 
-.partners_logo > div:hover{
+.sliders:hover{
     background-color: #0ad3ef;
     cursor: pointer;
+    
 }
 
 .image_section3{
@@ -291,7 +292,7 @@ h5{
 }
 
 ul{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:OswalRegular;
     font-size: 70%;
     font-weight: 100;
     color: white;
@@ -329,7 +330,19 @@ li > img{
 
 /* **********************************************SECTION 4 *************************************************** */
 
+.section4{
+    background-image: url(./../src/image/overly-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    background-color:  rgb(19,34,96);
 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-bottom: 10%;
+}
 
 .what_we_do{
     display: flex;
@@ -348,13 +361,32 @@ li > img{
     justify-content: center;
     gap: 5%;
 
+    padding-top: 2%;
     width: 100vw;
 }
 
 .options_4 > div{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
+
+    padding: 2%;
+    background-color: #17256e;
+    border-radius: 5px;
+
+}
+
+.options_4 > div > div > img{
+    width: 70%;
+
+    padding-bottom: 25px;
+
+}
+
+h6{
+    color: white;
+    font-size: 10px;
+    margin: 0;
 
 }
 
@@ -363,145 +395,42 @@ li > img{
     justify-content: center;
     align-items: center;
 
+    padding-top: 2%;
+
 }
 
 .options_box1{
-    width: 12%;
-    border: solid 1px black;
+    width: 8%;
+    font-family: OswalRegular;
 }
 
 .options_box2{
-    width: 12%;
+    width: 8%;
+    font-family: OswalRegular;
 }
 
 .options_box3{
-    width: 12%;
+    width: 8%;
+    font-family: OswalRegular;
+
 }
 
 .options_box4{
-    width: 12%;
-    height: 220px;
-}
-
-
-
-.options_4 > div > img:hover{
-    cursor: pointer;
-    transition: 1s ;
-    transform: translate3d(0px, -20px,0px);
-
+    width: 8%;
+    font-family: OswalRegular;
 }
 
 .options_4 > div:hover{
     border: 1px solid #0ad3ef;
-    border-radius: 20px;
+    border-radius: 5px;
     cursor: pointer;
+    
 }
 
-
-
-
-
-
-
-
-
-
-/* ********************************************** RESPONSIVE ************************************************* */
-
-/* MOBILE M */
-
-@media (min-width: 375px) and (max-width: 574px){
-    header{
-        flex-direction: column;
-        justify-content: center;
-
-    }
-
-    .logo> img{
-        width: 50px;
+.options_4 > div:hover img{
+    cursor: pointer;
+    transition: 1s ;
+    transform: translate3d(0px, -20px,0px);
+   
     
-    }
-
-    .logo{
-        display: flex;
-        justify-content: center;
-    }
-
-    .nav_bar{
-        flex-direction: column;
-        align-items: center;
-        margin: 0;
-              
-    }
-
-    .nav_bar > div{
-        border-radius: 20px;
-        width: 100px;
-        background-color: #2152a1;
-
-        margin-top: 10px;
-
-    }
-
-    h1{
-        display: flex;
-        justify-content: center;
-        
-    }
-
-    .div6{
-        border: solid 4px rgb(0, 255, 132);
-    }
 }
-
-
-/* TABLETTE */
-
-@media (min-width: 575px) and (max-width: 768px){
-    header{
-        flex-direction: column;
-        justify-content: center;
-
-    }
-
-    .logo> img{
-        width: 50px;
-    
-    }
-
-    .logo{
-        display: flex;
-        justify-content: center;
-    }
-
-    .nav_bar{
-        flex-direction: column;
-        align-items: center;
-        margin: 0;
-              
-    }
-
-    .nav_bar > div{
-        border-radius: 20px;
-        width: 600px;
-        background-color: #2152a1;
-
-        margin-top: 10px;
-
-    }
-
-    h1{
-        display: flex;
-        justify-content: center;
-        
-    }
-
-    .div6{
-        border: solid 4px rgb(0, 255, 132);
-    }
-
-    .contact{
-        width: auto;
-    }
-}  
