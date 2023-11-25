@@ -1,0 +1,416 @@
+@font-face{
+    font-family:oswald;
+    font-weight: 100;
+    src: url(./../src/fonts/OswaldMedium.ttf) format(truetype);
+
+}
+
+body{
+    width: 100vw;
+    margin: 0;
+
+    background-color: #0b1a31;
+    
+
+}
+/* ********************************************** HEADER *************************************************** */
+.logo > img{
+    width: 100px;
+    height: auto;
+
+}
+
+.logo{
+    padding-right: 100px;
+}
+
+
+header{
+    background-image: url(./../src/image/banner-overlay-img.png);
+    background-size: cover;
+    background-position: left;
+    padding-top: 4%;
+    padding-bottom: 4%;
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10%;
+    
+    
+}
+
+.nav_bar{
+    display: flex;
+    align-items: center;
+    gap: 20%;
+
+    margin-right: 300px;
+
+}
+
+h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-size: 70%;
+    font-weight: 400;
+    white-space: nowrap;
+
+    width: auto;
+
+}
+
+.contact{
+    border-radius: 20px;
+    background-color: #2152a1;
+
+    width: 100px;
+    height: 30px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact:hover{
+    background-color: #0ad3ef;
+    cursor: pointer;
+}
+
+/* **********************************************SECTION 2 *************************************************** */
+
+.banner_right > img{
+
+    width: 70%;
+    height: auto;
+
+}
+
+.big_box{
+    display: flex;
+    justify-content: center;
+
+}
+
+.section2{
+    width: 100vw;
+    margin-top: 5%;
+
+    display: flex;
+}
+
+.cyber_parent{
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+   
+}
+
+h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2em;
+    color: white;
+
+    margin: 0;
+
+}
+
+.title_cyber{
+    margin: 0;
+    padding: 0;
+
+    width: 50%;
+}
+
+.banner_right{
+    width: 50%;
+
+    display: flex;
+    justify-content: start;
+}
+
+
+.contact_cyber{
+    width: 50%;
+
+    display: flex;
+    gap: 2%;
+    
+}
+
+.contact2{
+    border-radius: 20px;
+    background-color: #2152a1;
+
+    width: 100px;
+    height: 30px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact2:hover{
+    background-color: #0ad3ef;
+    cursor: pointer;
+}
+
+.subtitle_cyber{
+    width: 50%;
+}
+
+h4{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 70%;
+    font-weight: 100;
+    color: white;
+}
+
+
+/* **********************************************SECTION 3 *************************************************** */
+.section3{
+    background-image: url(./../src/image/backright.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 15%;
+    
+}
+
+.partners{
+    display: flex;
+    justify-content: center;
+
+    height: 0px
+
+}
+
+h3{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.7em;
+    letter-spacing: 2px;
+    color: #3290be;
+    text-align: justify;
+
+}
+
+.title3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 100px;
+
+}
+
+h5{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5em;
+
+    margin: 0;
+
+}
+
+.partners_logo > div{
+    border-radius: 5px;
+    background-color: #17256e;
+
+    height: 80px;
+    width: 80px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.partners_logo > div > img{
+    width: 50%;
+    height: 50%;
+   
+}
+
+.partners_logo{
+    display: flex;
+    justify-content: center;
+    gap: 1%;
+    margin-bottom: 7%;
+
+}
+
+.partners_logo > div > img:hover{
+    background-color: #0ad3ef;
+    cursor: pointer;
+    transition: 1s ;
+    transform: translate3d(0px, -10px,0px);
+
+}
+
+.partners_logo > div:hover{
+    background-color: #0ad3ef;
+    cursor: pointer;
+}
+.image_section3{
+    width: 50%;
+
+    display: flex;
+    justify-content: end;
+
+}
+
+.risk{
+    width: 100vw;
+
+    display: flex;
+    justify-content: start;
+   
+}
+
+.risk > div > img{
+    width: 50%;
+    height: auto;
+
+}
+
+ul{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 70%;
+    font-weight: 100;
+    color: white;
+
+    line-height: 20px;
+
+    list-style: none;
+    margin-left: -40px;
+
+}
+
+li > img{
+
+    width: 15px;
+    border-radius: 20px;
+
+    margin-right: 7px;
+
+}
+
+.text_partners{
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+
+}
+
+.who_section3{
+    width: 50%;
+    margin-left: 10%;
+}
+
+
+
+
+
+/* ********************************************** RESPONSIVE ************************************************* */
+
+/* MOBILE M */
+
+@media (min-width: 375px) and (max-width: 574px){
+    header{
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .logo> img{
+        width: 50px;
+    
+    }
+
+    .logo{
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav_bar{
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+              
+    }
+
+    .nav_bar > div{
+        border-radius: 20px;
+        width: 100px;
+        background-color: #2152a1;
+
+        margin-top: 10px;
+
+    }
+
+    h1{
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .div6{
+        border: solid 4px rgb(0, 255, 132);
+    }
+}
+
+
+/* TABLETTE */
+
+@media (min-width: 575px) and (max-width: 768px){
+    header{
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .logo> img{
+        width: 50px;
+    
+    }
+
+    .logo{
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav_bar{
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+              
+    }
+
+    .nav_bar > div{
+        border-radius: 20px;
+        width: 600px;
+        background-color: #2152a1;
+
+        margin-top: 10px;
+
+    }
+
+    h1{
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .div6{
+        border: solid 4px rgb(0, 255, 132);
+    }
+
+    .contact{
+        width: auto;
+    }
+}  
