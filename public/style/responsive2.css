@@ -159,18 +159,13 @@
 }
 
 
-
-
-
-
-    .div6{
-        border: solid 4px rgb(0, 255, 132);
-
+.div6{
+        background-color: aqua;
         display: flex;
         justify-content: center;
-    }
+ }
 
-    .contact{
+.contact{
         width: auto;
     }
 }  
