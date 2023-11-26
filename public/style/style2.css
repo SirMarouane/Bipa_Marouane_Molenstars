@@ -132,6 +132,7 @@ header{
    
 }
 
+
 h2{
     font-family: sans-serif;
     font-size: 2em;
@@ -161,7 +162,7 @@ h2{
 
     font-family: OswalRegular;
     color: white;
-    font-size: 30%;
+    font-size: 70%;
     font-weight: 400;
     white-space: nowrap;
 
@@ -176,7 +177,7 @@ h2{
 
     font-family: OswalRegular;
     color: white;
-    font-size: 70%;
+    font-size: 100%;
     font-weight: 400;
     white-space: nowrap;
 
@@ -283,6 +284,7 @@ h3{
     cursor: pointer;
     transition: 1s ;
     transform: translate3d(0px, -10px,0px);
+    filter: brightness(100);
     
 
 }
@@ -454,6 +456,7 @@ li > img{
     border: 1px solid #0ad3ef;
     border-radius: 5px;
     cursor: pointer;
+    
     
 }
 
