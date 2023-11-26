@@ -49,8 +49,7 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 10%;
-    
+    gap: 10%; 
     
 }
 
@@ -63,7 +62,7 @@ header{
 
 }
 
-h1{
+.h1{
     font-family: OswalRegular;
     color: white;
     font-size: 70%;
@@ -73,10 +72,20 @@ h1{
     width: auto;
 
 }
+.div6{
+    font-family: OswalRegular;
+    color: white;
+    font-size: 30%;
+    font-weight: 400;
+    white-space: nowrap;
+
+    width: auto; 
+
+}
 
 .contact{
     border-radius: 20px;
-    background-color: #2152a1;
+    background-color: #0ad3ef;
 
     width: 100px;
     height: 30px;
@@ -87,7 +96,7 @@ h1{
 }
 
 .contact:hover{
-    background-color: #0ad3ef;
+    background-color: #0052d5;
     cursor: pointer;
 }
 
@@ -150,6 +159,12 @@ h2{
 .contact_cyber{
     width: 50%;
 
+    font-family: OswalRegular;
+    color: white;
+    font-size: 30%;
+    font-weight: 400;
+    white-space: nowrap;
+
     display: flex;
     gap: 2%;
     
@@ -157,7 +172,15 @@ h2{
 
 .contact2{
     border-radius: 20px;
-    background-color: #2152a1;
+    background-color: #0ad3ef;
+
+    font-family: OswalRegular;
+    color: white;
+    font-size: 70%;
+    font-weight: 400;
+    white-space: nowrap;
+
+    width: auto;
 
     width: 100px;
     height: 30px;
@@ -168,7 +191,7 @@ h2{
 }
 
 .contact2:hover{
-    background-color: #0ad3ef;
+    background-color: #0052d5;
     cursor: pointer;
 }
 
@@ -220,7 +243,7 @@ h3{
 
 }
 
-h5{
+.h5{
     color: white;
     font-family:OswalRegular;
     font-size: 1.5em;
@@ -260,8 +283,7 @@ h5{
     cursor: pointer;
     transition: 1s ;
     transform: translate3d(0px, -10px,0px);
-    filter: brightness(100);
-
+    
 
 }
 
@@ -351,6 +373,14 @@ li > img{
 
 }
 
+.reduce_risk > h5{
+    color: white;
+    font-family:OswalRegular;
+    font-size: 1.5em;
+
+    margin: 0;
+}
+
 .reduce_risk{
     display: flex;
     justify-content: center;
@@ -379,12 +409,11 @@ li > img{
 
 .options_4 > div > div > img{
     width: 70%;
-
     padding-bottom: 25px;
 
 }
 
-h6{
+.h6{
     color: white;
     font-size: 10px;
     margin: 0;
