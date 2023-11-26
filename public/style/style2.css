@@ -366,7 +366,7 @@ li > img{
     flex-direction: column;
     justify-content: center;
 
-    margin-bottom: 5%;
+    margin-bottom: 0%;
 }
 
 .what_we_do{
@@ -456,7 +456,6 @@ li > img{
     border: 1px solid #0ad3ef;
     border-radius: 5px;
     cursor: pointer;
-    
     
 }
 

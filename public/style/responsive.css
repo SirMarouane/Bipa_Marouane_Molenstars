@@ -1,6 +1,24 @@
 @media (min-width: 575px) and (max-width: 768px) {
-    .section6divRight {
+
+    .section6divLeftTop{
         display: flex;
         flex-direction: column;
+
+        }
+
+
+    .section6{
+        height: auto;
+
+        }
+
+    .section8{
+        height: auto;
+
+        }  
+
+    .section7{
+        height: auto;
     }
+
 }
