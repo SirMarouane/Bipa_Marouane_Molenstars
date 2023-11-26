@@ -1,0 +1,6 @@
+@media (min-width: 575px) and (max-width: 768px) {
+    .section6divRight {
+        display: flex;
+        flex-direction: column;
+    }
+}

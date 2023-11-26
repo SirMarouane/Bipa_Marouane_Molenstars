@@ -1,0 +1,19 @@
+.section8Bottom1:hover{     
+    transform: rotate(5deg) scale(1.1);  
+}  
+
+.section8Bottom2:hover{     
+    transform: rotate(2deg) scale(1.1); 
+}
+
+.trendManagement:hover {
+    color: aqua;
+}
+
+.protectSecurity:hover {
+    color: aqua;
+}
+
+.readMore:hover {
+    color: aqua;
+}
