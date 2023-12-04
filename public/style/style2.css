@@ -23,13 +23,13 @@ body{
     width: 100vw;
     margin: 0;
 
-    background-color: rgb(11, 24, 79);
+    background-color: #08144D;
     
 
 }
 /* ********************************************** HEADER *************************************************** */
 .logo > img{
-    width: 100px;
+    width: 130px;
     height: auto;
 
 }
@@ -38,13 +38,16 @@ body{
     padding-right: 100px;
 }
 
+.burger{
+    visibility: hidden;
+}
 
 header{
     background-image: url(./../src/image/banner-overlay-img.png);
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: left;
-    padding-top: 4%;
-    padding-bottom: 4%;
+    padding-top: 2%;
  
     display: flex;
     flex-direction: column;
@@ -56,27 +59,27 @@ header{
 .nav_bar{
     display: flex;
     align-items: center;
-    gap: 20%;
+    gap: 10%;
 
-    margin-right: 300px;
+    margin-right: 212px;
 
 }
 
 .h1{
-    font-family: OswalRegular;
+    font-family: RobotoRegular;
     color: white;
-    font-size: 70%;
-    font-weight: 400;
+    font-size: 80%;
+    font-weight: 100;
     white-space: nowrap;
 
     width: auto;
 
 }
 .div6{
-    font-family: OswalRegular;
+    font-family: RobotoRegular;
     color: white;
-    font-size: 30%;
-    font-weight: 400;
+    font-size: 35%;
+    font-weight: 100;
     white-space: nowrap;
 
     width: auto; 
@@ -87,8 +90,8 @@ header{
     border-radius: 20px;
     background-color: #0ad3ef;
 
-    width: 100px;
-    height: 30px;
+    width: 105px;
+    height: 33px;
     
     display: flex;
     justify-content: center;
@@ -134,8 +137,8 @@ header{
 
 
 h2{
-    font-family: sans-serif;
-    font-size: 2em;
+    font-family: RobotoBold;
+    font-size: 2.7em;
     color: white;
 
     margin: 0;
@@ -145,8 +148,9 @@ h2{
 .title_cyber{
     margin: 0;
     padding: 0;
+    padding-top: 5%;
 
-    width: 50%;
+    width: 58%;
 }
 
 .banner_right{
@@ -158,16 +162,17 @@ h2{
 
 
 .contact_cyber{
-    width: 50%;
+    width: 59%;
+    padding-top: 1.5%;
 
-    font-family: OswalRegular;
+    font-family: RobotoRegular;
     color: white;
     font-size: 70%;
-    font-weight: 400;
+    font-weight: 100;
     white-space: nowrap;
 
     display: flex;
-    gap: 2%;
+    gap: 4%;
     
 }
 
@@ -175,21 +180,43 @@ h2{
     border-radius: 20px;
     background-color: #0ad3ef;
 
-    font-family: OswalRegular;
+    font-family: RobotoRegular;
     color: white;
     font-size: 100%;
-    font-weight: 400;
+    font-weight: 100;
     white-space: nowrap;
 
     width: auto;
 
-    width: 100px;
-    height: 30px;
+    width: 110px;
+    height: 36px;
     
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+.contact22{
+    border-radius: 20px;
+    background-color: rgb(30, 72, 144);
+
+    font-family: RobotoRegular;
+    color: white;
+    font-size: 100%;
+    font-weight: 100;
+    white-space: nowrap;
+
+    width: auto;
+
+    width: 110px;
+    height: 36px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
 
 .contact2:hover{
     background-color: #0052d5;
@@ -197,12 +224,13 @@ h2{
 }
 
 .subtitle_cyber{
-    width: 50%;
+    width: 58%;
 }
 
 h4{
-    font-family: OswalRegular;
-    font-size: 60%;
+    font-family: RobotoRegular;
+    font-size: 69%;
+    opacity: 0.6;
     color: white;
     font-weight: 1;
 }
@@ -212,8 +240,9 @@ h4{
 .section3{
     background-image: url(./../src/image/backright.png);
     background-repeat: no-repeat;
-    background-position: right;
-    background-size: 15%;
+    background-position: right bottom 100px;
+    background-size: 14%;
+    padding-top: 5%;
     
     padding-bottom: 5%;
 }
@@ -227,7 +256,7 @@ h4{
 }
 
 h3{
-    font-family: OswalRegular;
+    font-family: RobotoRegular;
     font-size: 0.7em;
     letter-spacing: 2px;
     color: #3290be;
@@ -246,8 +275,9 @@ h3{
 
 .h5{
     color: white;
-    font-family:OswalRegular;
-    font-size: 1.5em;
+    font-family:RobotoRegular;
+    font-size: 1.9em;
+    line-height: 120%;
 
     margin: 0;
 
@@ -257,8 +287,9 @@ h3{
     border-radius: 5px;
     background-color: #17256e;
 
-    height: 80px;
-    width: 80px;
+    height: 90px;
+    width: 105px;
+    margin-bottom: 8%;
 
     display: flex;
     justify-content: center;
@@ -267,8 +298,8 @@ h3{
 }
 
 .partners_logo > div > img{
-    width: 50%;
-    height: 50%;
+    width: 51%;
+    height: 60%;
    
 }
 
@@ -276,7 +307,7 @@ h3{
     display: flex;
     justify-content: center;
     gap: 1%;
-    margin-bottom: 7%;
+    margin-bottom: 0%;
 
 }
 
@@ -297,7 +328,6 @@ h3{
 
 .image_section3{
     width: 50%;
-
     display: flex;
     justify-content: end;
 
@@ -312,16 +342,17 @@ h3{
 }
 
 .risk > div > img{
-    width: 50%;
+    width: 63%;
     height: auto;
 
 }
 
 ul{
-    font-family:OswalRegular;
+    font-family:RobotoRegular;
     font-size: 70%;
     font-weight: 100;
     color: white;
+    opacity: 0.6;
 
     line-height: 20px;
 
@@ -332,7 +363,7 @@ ul{
 
 li > img{
 
-    width: 15px;
+    width: 12px;
     border-radius: 20px;
 
     margin-right: 7px;
@@ -340,8 +371,8 @@ li > img{
 }
 
 .text_partners{
-    width: 50%;
-
+    width: 60%;
+   
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -351,7 +382,8 @@ li > img{
 
 .who_section3{
     width: 50%;
-    margin-left: 10%;
+    line-height: 20px;
+    margin-left: 7%;
 }
 
 /* **********************************************SECTION 4 *************************************************** */
@@ -359,6 +391,7 @@ li > img{
 .section4{
     background-image: url(./../src/image/overly-img.png);
     background-position: center;
+    background-size: 85%;
     background-repeat: no-repeat;
     background-color:  rgb(19,34,96);
 
@@ -372,14 +405,15 @@ li > img{
 .what_we_do{
     display: flex;
     justify-content: center;
+    padding-top: 5%;
 
 }
 
 .reduce_risk > h5{
     color: white;
-    font-family:OswalRegular;
-    font-size: 1.5em;
-
+    font-family:RobotoRegular;
+    font-size: 1.9em;
+    line-height: 120%;
     margin: 0;
 }
 
@@ -392,7 +426,7 @@ li > img{
 .options_4{
     display: flex;
     justify-content: center;
-    gap: 5%;
+    gap: 1%;
 
     padding-top: 2%;
     width: 100vw;
@@ -403,65 +437,107 @@ li > img{
     flex-direction: column;
     align-items: start;
 
-    padding: 2%;
+    padding: 1%;
+    padding-top: 2%;
     background-color: #17256e;
-    border-radius: 5px;
+    border-radius: 8px;
 
 }
 
-.options_4 > div > div > img{
-    width: 70%;
-    padding-bottom: 25px;
+.options_box1 > div > h4{
+    padding-right: 10px;
+    line-height: 15px;
+}
 
+.options_box2 > div > h4{
+    padding-right: 10px;
+    line-height: 15px;
+}
+
+.options_box3 > div > h4{
+    padding-right: 10px;
+    line-height: 15px;
+}
+
+.options_box4 > div > h4{
+    padding-right: 10px;
+    line-height: 15px;
+}
+
+.options_4 > div > div > img{
+    width: 60%;
+    padding-bottom: 15px;
 }
 
 .h6{
     color: white;
-    font-size: 10px;
+    font-size: 12px;
     margin: 0;
-
+    line-height: 20px;
+    font-family: RobotoRegular;
+    opacity: 0.8;
+    
 }
 
 .started_section4{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+    width: 100%;
     padding-top: 2%;
+    padding-bottom: 5%;
+
+    font-family: RobotoRegular;
+    color: white;
+    font-size: 70%;
+    font-weight: 100;
+
+    justify-content: center;
+
+    display: flex;
+    gap: 4%;
 
 }
 
 .options_box1{
-    width: 8%;
-    font-family: OswalRegular;
+    width: 10%;
+    font-family: RobotoRegular;
+    border: 1px solid #17256e;
+
 }
 
 .options_box2{
-    width: 8%;
-    font-family: OswalRegular;
+    width: 10%;
+    font-family: RobotoRegular;
+    padding-left: 3px;
+    border: 1px solid #17256e;
 }
 
 .options_box3{
-    width: 8%;
-    font-family: OswalRegular;
+    width: 10%;
+    font-family: RobotoRegular;
+    padding-left: 3px;
+    border: 1px solid #17256e;
 
 }
 
 .options_box4{
-    width: 8%;
-    font-family: OswalRegular;
+    width: 10%;
+    font-family: RobotoRegular;
+    padding-left: 3px;
+    border: 1px solid #17256e;
+
 }
 
 .options_4 > div:hover{
     border: 1px solid #0ad3ef;
     border-radius: 5px;
     cursor: pointer;
+
     
 }
 
 .options_4 > div:hover img{
     cursor: pointer;
     transition: 1s ;
-    transform: translate3d(0px, -20px,0px);
+    transform: translate3d(0px, -6px,0px);
    
 }
+

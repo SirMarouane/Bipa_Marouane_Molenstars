@@ -1,171 +1,178 @@
-/* ********************************************** RESPONSIVE ************************************************* */
-
-/* MOBILE M */
-
-@media (min-width: 374px) and (max-width: 574px){
-    header{
-        flex-direction: column;
-        justify-content: center;
-
+@media (min-width: 370px) and (max-width: 575px){
+    
+    .logo{
+        display: flex;
+    }
+    .logo>img{
+        width: 20% !important;
+        padding: 20px;
+    }
+    .nav_bar{
+        visibility: hidden;
     }
 
-    .section2{
-        flex-direction: column;
-        
+    .burger>img{
+        width: 30px;
+        height: 30px;
+        padding-left: 250px;
+        padding-top: 25px;
 
+    }
+    .burger{
+        visibility: visible !important;
+        display: flex;
+        justify-content: end;
+    
+    }
+
+    .banner_right > img{
+        width: 200px !important;
+        height: 200px !important;
+        opacity: 0.2;
+    
     }
 
     .big_box{
-        margin: 0;
-        padding: 0;
-
-        
         flex-direction: column;
-        align-items: center;
-    }
 
-    .logo{
-        display: flex;
-        width: 2%;
-    }
-
-    .nav_bar{
-        flex-direction: column;
-        margin-left: 300px;
-    }
-    .nav_bar > div{
-        border-radius: 20px;
-        width: 100px;
-        background-color: #2152a1;
-
-        margin-top: 10px;
-
-        display: flex;
-        justify-content: center;
-
-    }
-
-    .title_cyber >h2{
-        
-        font-size: 1em;
-        width: max-content;
-
-        justify-content: center;
-      
     }
 
     .cyber_parent{
-        
-    margin-left: 30px;
-    }
-
-.banner_right{
-   margin-left: 110px;
-
-}
-
-.partners_logo {
-    flex-direction: column;
-    align-items: center;
- 
-}
-
-.sliders{
-    margin-bottom: 10px;
-    width: 2000px;
-
-}
-
-.who_section3{
-    justify-content: center;
-    align-items: center;
-
-}
-
-.risk{
-   flex-direction: column;
-   align-items: center;
-
-}
-
-.text_partners{
-    width: 1000px;
-
-}
-
-
-   
-}
-
-
-/* TABLETTE */
-
-@media (min-width: 575px) and (max-width: 768px){
-    header{
-        flex-direction: column;
-        justify-content: center;
-
-    }
-
-    .section2{
-        flex-direction: column;
-        
-
-    }
-
-    .big_box{
-        margin: 0;
-        padding: 0;
+        width: 100%;
 
         display: flex;
         flex-direction: column;
+      
+    
+    }
+
+
+    .title_cyber>h2{
+        font-size: 2em !important;
+        width: 60vw;
+        text-align: center;
+
+    }
+
+    .subtitle_cyber>h4{
+        text-align: center;
+        width: 60vw;
+    
+    }
+ 
+    .banner_right{
+        width: 100%;
+    }
+
+
+    .contact2{
+        border-radius: 20px;
+        background-color: #0ad3ef;
+
+        font-family: RobotoRegular;
+        color: white;
+        font-size: 100%;
+        font-weight: 100;
+        white-space: nowrap;
+
+        width: 200px !important;
+        height: 60px !important;
+    }
+
+    .contact22{
+        width: 200px !important;
+        height: 60px !important;
+        
+    }
+
+    .contact_cyber{
+        margin-right: -60px !important;
+    }
+   
+
+
+    .partners_logo{
+        flex-direction: column;
+        height: auto;
         align-items: center;
     }
-
-    .logo{
-        display: flex;
-        width: 2%;
-    }
-
-    .nav_bar{
+    
+    .partners_logo > div{
+        padding-left: 200px;
         flex-direction: column;
-        margin-left: 300px;
+        align-items: center;
+    
     }
-
-    .nav_bar > div{
-        border-radius: 20px;
-        width: 600px;
-        background-color: #2152a1;
-
-        margin-top: 10px;
-
-    }
-
-.h1{
-        display: flex;
-        justify-content: center;
+    
+    .partners_logo > div > img{
+        width: 51%;
+        height: 60%;
+        margin-right: 200px;
         
+       
     }
-.contact2{
-    display: flex;
-    justify-content: center;
-
-}
-
-.contact{
-    display: flex;
-    justify-content: center;
-
-}
-
-
-.div6{
-        background-color: aqua;
+    
+    .partners_logo{
         display: flex;
         justify-content: center;
- }
-
-.contact{
-        width: auto;
+        gap: 1%;
+        margin-bottom: 0%;
+    
     }
-}  
+    
+    
+    
+    .risk{
+        width: 100vw;
+       flex-direction: column-reverse;
+       align-items: center;
+    }
+    
+    .risk > div > img{
+        width: 100%;
+        height: auto;
+    
+    }
+    
+    
+    .who_section3>h5{
+        width: 70vw;
+        text-align: center;
+    
+    }
+
+    .who_section3>h4{
+        width: 70vw;
+        text-align: justify;
+
+    
+    }
+    .who_section3>ul>li{
+        width: 70vw;
+    
+    }
+    .text_partners{
+        width: 100vw;
+       
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+    
+    }
+    
+    .who_section3{
+        width: 100vw;
+        line-height: 20px;
+        margin-left: 7%;
+    }
+
+
+
+
+
+
+    }
+
+
+
