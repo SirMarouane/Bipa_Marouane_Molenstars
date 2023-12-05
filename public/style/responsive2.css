@@ -167,12 +167,292 @@
         margin-left: 7%;
     }
 
+    /* **********************************************SECTION 4 *************************************************** */
+    .section4{
+        height: auto !important;
+    
+    }
 
+    .reduce_risk > h5{
+        color: white;
+        font-family:RobotoRegular;
+        font-size: 1.9em;
+        line-height: 120%;
+       text-align: center;
+    }
 
+    .reduce_risk{
+        display: flex;
+        justify-content: center;
 
+    }
 
+    .options_4{
+        display: flex;
+        justify-content: center;
+        flex-wrap:wrap !important;
+        gap: 3% !important;
+
+    }
+
+    .options_4 > div{
+        display: flex;
+        align-items: start;
+       
+        padding: 1%;
+        padding-top: 2%;
+        background-color: #17256e;
+        border-radius: 8px;
 
     }
 
 
+    .options_box1{
+        width: 150px !important;
+        height: 200px !important;
+        margin-bottom: 5% !important;
 
+    }
+
+    .options_box2{
+        width: 150px !important;
+        height: 200px !important;
+        margin-bottom: 5% !important;
+   
+    }
+
+    .options_box3{
+        width: 150px !important;
+        height: 200px !important;
+        
+        margin-bottom: 5% !important;
+
+    }
+
+    .options_box4{
+        width: 150px !important;
+        height: 200px !important;
+        font-family: RobotoRegular;
+        padding-left: 3px;
+        border: 1px solid #17256e;
+        margin-bottom: 5% !important;
+
+    }
+
+   
+
+}
+
+/* ************************************************ TABLETTE ********************************************* */
+
+@media (min-width: 575px) and (max-width: 820px){
+    
+    .logo{
+        display: flex;
+        padding-left: 300px;
+        padding-top: 20px !important;
+    }
+    .logo>img{
+        width: 30% !important;
+        padding: 10% !important;
+    }
+    .nav_bar{
+        visibility: hidden;
+    }
+
+    .burger>img{
+        width: 30px;
+        height: 30px;
+        padding-left: 150px !important;
+        padding-top: 25px;
+
+    }
+    .burger{
+        visibility: visible !important;
+        display: flex;
+        justify-content: end;
+    
+    }
+
+    .banner_right > img{
+        width: 100% !important;
+        height: 100% !important;
+        opacity: 0.2;
+    
+    }
+
+    .big_box{
+        flex-direction: column;
+        height: 140px !important;
+
+    }
+
+    .cyber_parent{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+      
+    }
+
+    .title_cyber>h2{
+        font-size: 3em !important;
+        width: 60vw;
+        text-align: center;
+
+    }
+
+    .subtitle_cyber>h4{
+        text-align: center;
+        width: 60vw;
+    
+    }
+ 
+    .banner_right{
+        width: 100%;
+    }
+
+
+    .contact2{
+        border-radius: 20px;
+        background-color: #0ad3ef;
+
+        font-family: RobotoRegular;
+        color: white;
+        font-size: 100%;
+        font-weight: 100;
+        white-space: nowrap;
+
+        width: 200px !important;
+        height: 60px !important;
+    }
+
+    .contact22{
+        width: 200px !important;
+        height: 60px !important;
+        
+    }
+
+    .contact_cyber{
+        margin-right: -25% !important;
+    }
+    
+    .risk{
+        width: 100vw;
+       flex-direction: column-reverse;
+       align-items: center;
+    }
+    
+    .risk > div > img{
+        width: 100%;
+        height: auto;
+    
+    }
+    
+    
+    .who_section3>h5{
+        width: 70vw;
+        text-align: center;
+    
+    }
+
+    .who_section3>h4{
+        width: 70vw;
+        text-align: justify;
+
+    }
+
+    .who_section3>ul>li{
+        width: 70vw;
+    
+    }
+    .text_partners{
+        width: 100vw;
+       
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+    
+    }
+    
+    .who_section3{
+        width: 100vw;
+        line-height: 20px;
+        margin-left: -100px !important;
+    }
+
+    /* **********************************************SECTION 4 *************************************************** */
+    .section4{
+        height: auto !important;
+    
+    }
+
+    .reduce_risk > h5{
+        color: white;
+        font-family:RobotoRegular;
+        font-size: 1.9em;
+        line-height: 120%;
+       text-align: center;
+    }
+
+    .reduce_risk{
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .options_4{
+        display: flex;
+        justify-content: center;
+        flex-wrap:wrap !important;
+        gap: 3% !important;
+
+    }
+
+    .options_4 > div{
+        display: flex;
+        align-items: start;
+       
+        padding: 1%;
+        padding-top: 2%;
+        background-color: #17256e;
+        border-radius: 8px;
+
+    }
+
+
+    .options_box1{
+        width: 150px !important;
+        height: 200px !important;
+        margin-bottom: 5% !important;
+
+    }
+
+    .options_box2{
+        width: 150px !important;
+        height: 200px !important;
+        margin-bottom: 5% !important;
+   
+    }
+
+    .options_box3{
+        width: 150px !important;
+        height: 200px !important;
+        
+        margin-bottom: 5% !important;
+
+    }
+
+    .options_box4{
+        width: 150px !important;
+        height: 200px !important;
+        font-family: RobotoRegular;
+        padding-left: 3px;
+        border: 1px solid #17256e;
+        margin-bottom: 5% !important;
+
+    }
+
+   
+
+}
